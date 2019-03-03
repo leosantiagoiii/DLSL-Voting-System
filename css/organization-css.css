@@ -1,0 +1,50 @@
+@font-face{
+	font-family: Courier-new;
+	src:url('../fonts/Courier New.ttf');
+}
+@font-face{
+	font-family: Lora-it;
+	src:url('../fonts/Lora-Italic.ttf');
+}
+@font-face{
+	font-family: Lora-b;
+	src:url('../fonts/Lora-Bold.ttf');
+}
+@font-face{
+	font-family: Lora;
+	src:url('../fonts/Lora-Regular.ttf');
+}
+@font-face{
+	font-family: Roboto-bla;
+	src:url('../fonts/Roboto-Black.ttf');
+}
+@font-face{
+	font-family: Roboto-thin;
+	src:url('../fonts/Roboto-Thin.ttf');
+}
+@font-face{
+	font-family: Roboto-it;
+	src:url('../fonts/Roboto-Italic.ttf');
+}
+@font-face{
+	font-family: Roboto;
+	src:url('../fonts/Roboto-Regular.ttf');
+}
+.organization-head{
+	padding: 68px 42px;
+}
+.organization-head h1{
+	font-family: Lora-it; 
+	font-style: italic;
+	font-size: 33px;
+	margin-bottom: 7px;
+}
+.organization-head p{
+	font-family: Roboto;
+}
+.organization-head h3{
+	font-family: Lora-b; 
+	font-style: italic;
+	font-size: 20px;
+	margin-bottom: 7px;
+}

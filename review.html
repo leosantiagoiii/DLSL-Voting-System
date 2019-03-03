@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>CITE ELECTION | Program Head Coordinators</title>
+	<link rel="stylesheet" type="text/css" href="css/cite-website.css" media="all">
+	<link rel="stylesheet" type="text/css" href="css/voting-css.css" media="all">
+	<meta charset="utf-8">
+					<script type="text/javascript">
+					function alertVoter(){
+						var msg=window.confirm("Are you sure you want to submit your votes?");
+						if (msg){
+							window.alert("Thank You");
+							window.location.href="voting-end.html";
+						}
+					}
+				</script>
+				<script type="text/javascript">
+					function onloadpopup(){
+						alert("Click the Positions if you want to change your vote");
+					}
+				</script>
+	<style type="text/css">
+		.vote-division th{
+			font-family: Lora-it;
+			padding: 20px;
+			font-size: 30px;
+			color:#92120d;
+		}
+		.vote-division td{
+			font-family: Roboto;
+			padding: 5px 20px;
+		}
+		.vote-division a{
+			color: maroon;
+			text-decoration: none;
+			font-weight: bold;
+		}
+		.vote-division a:hover{
+			color: black;
+		}
+	</style>
+</head>
+<body onload="onloadpopup()">
+	<header class="header-img">
+		<a href="Index.html"><img src="images/Header.png" width="100%"></a>
+	</header>
+	<div class="navigation">
+		<center><nav>
+			<ul id="navul">
+				<li class="navli"><a href="about.html">ABOUT</a></li>
+				<li class="navli"><a href="news.html">NEWS</a></li>
+				<li class="navli"><a href="gallery.html">GALLERY</a></li>
+				<li class="navli"><a href="organizations.html">ORGANIZATIONS</a></li>
+				<li class="navli"><a href="voting-1.html">VOTING</a></li>
+				<li class="navli"><a href="contact-us.html">CONTACT US</a></li>
+				<li class="navli"><a href="login.html">LOG-IN</a></li>
+			</ul>
+		</nav></center>
+	</div>
+
+	<!---->
+	<div class="vote-division">
+		<table width="100%" style="border-collapse: collapse; margin-bottom: 30px;" class="parent-table-vote">
+			<tr>
+				<th width="50%" style="text-align: right;">Position</th>
+				<th width="50%" style="text-align: left; color: black;">Candidate</th>
+			</tr>
+			<tr>
+				<td width="50%" style="text-align: right;"><a href="voting-1.html">Governor</a></td>
+				<td width="50%" style="text-align: left;">Juanita del Rosario</td>
+			</tr>
+			<tr>
+				<td width="50%" style="text-align: right;"><a href="voting-2.html">Vice-Governor for Internal & Academic Affairs</a></td>
+				<td width="50%" style="text-align: left;">Abstain</td>
+			</tr>
+			<tr>
+				<td width="50%" style="text-align: right;"><a href="voting-3.html">Vice-Governor for External & Public Relations</a></td>
+				<td width="50%" style="text-align: left;">Abstain</td>
+			</tr>
+			<tr>
+				<td width="50%" style="text-align: right;"><a href="voting-4.html">Secretary</a></td>
+				<td width="50%" style="text-align: left;">Lapu-lapu</td>
+			</tr>
+			<tr>
+				<td width="50%" style="text-align: right;"><a href="voting-5.html">Finance Manager</a></td>
+				<td width="50%" style="text-align: left;">Jimmy Neutron</td>
+			</tr>
+			<tr>
+				<td width="50%" style="text-align: right;"><a href="voting-6.html">Auditor</a></td>
+				<td width="50%" style="text-align: left;">Samantha Samara</td>
+			</tr>
+			<tr>
+				<td width="50%" style="text-align: right;"><a href="voting-7.html">Program Coordinator: BSCS</a></td>
+				<td width="50%" style="text-align: left;">Miriam Defensor Santiago</td>
+			</tr>
+		</table>
+			<center>
+					<button class="finished-voting" onclick="alertVoter()">Submit Votes</button>
+			</center>
+
+			
+
+		<div class="year-banner"><h1>ELECTION 2017</h1></div>
+	</div>
+	<!---->
+	
+	<footer>
+		<table width="100%" >
+			<tr>
+				<td width="20%">
+					<div>
+					<b>Site Map</b><br>
+					<a href="news.html">News</a><br>
+					<a href="gallery.html">Gallery</a><br>
+					<a href="organizations.html">Organizations</a><br>
+					<a href="about.html">About Us</a><br>
+					<a href="login.html">Log-in page</a>
+					</div>
+				</td>
+				<td width="20%">
+					<b>Services</b><br>
+					<a href="voting-1.html">Voting</a><br>
+					<a href="contact-us.html">Contact Us</a><br>
+					<a href="http://www.dlsl.edu.ph/24ff42e5b65bf52e5fb66291233ecf6bbbc9d72bf34aff5a4b22ecde9fa6c8d4collegepages_redirectx.asp?querycollegepagex=1149">More info</a><br>
+					<a href="curriculums.html">College Curriculums</a>
+				</td>
+				<td width="20%">
+					<b>Social Media</b><br>
+					<a href="https://www.facebook.com/dlslcite/">Facebook</a><br>
+					<a href="https://twitter.com/dlslsg_cite">Twitter</a><br>
+					<a href="https://www.instagram.com/jpcsdlsl/">Instagram</a><br>
+				</td>
+				<td width="40%">
+					<img id="footer-img" align="right" src="images/cite-logo.png">
+				</td>
+			</tr>
+		</table>
+	</footer>
+</body>
+</html>

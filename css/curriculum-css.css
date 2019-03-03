@@ -1,0 +1,57 @@
+@font-face{
+	font-family: Courier-new;
+	src:url('../fonts/Courier New.ttf');
+}
+@font-face{
+	font-family: Lora-it;
+	src:url('../fonts/Lora-Italic.ttf');
+}
+@font-face{
+	font-family: Lora-b;
+	src:url('../fonts/Lora-Bold.ttf');
+}
+@font-face{
+	font-family: Lora;
+	src:url('../fonts/Lora-Regular.ttf');
+}
+@font-face{
+	font-family: Roboto-bla;
+	src:url('../fonts/Roboto-Black.ttf');
+}
+@font-face{
+	font-family: Roboto-thin;
+	src:url('../fonts/Roboto-Thin.ttf');
+}
+@font-face{
+	font-family: Roboto-it;
+	src:url('../fonts/Roboto-Italic.ttf');
+}
+@font-face{
+	font-family: Roboto;
+	src:url('../fonts/Roboto-Regular.ttf');
+}
+
+h1{
+	font-family: Lora-it;
+	padding: 70px 0px;
+	text-align: center;
+	font-size: 50px;
+	color: #a41610;
+}
+#degrees{
+	font-family: Roboto;
+	padding-bottom: 50px;
+	text-align: center;
+	line-height: 30px;
+}
+.curriculum-links{
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 2px 0px;
+}
+.curriculum-links:hover{
+	color: white;
+	padding:2px 15px;
+	background-color: black;
+}

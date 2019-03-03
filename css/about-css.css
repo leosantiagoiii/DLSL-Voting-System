@@ -1,0 +1,88 @@
+@font-face{
+	font-family: Courier-new;
+	src:url('../fonts/Courier New.ttf');
+}
+@font-face{
+	font-family: Lora-it;
+	src:url('../fonts/Lora-Italic.ttf');
+}
+@font-face{
+	font-family: Lora-b;
+	src:url('../fonts/Lora-Bold.ttf');
+}
+@font-face{
+	font-family: Lora;
+	src:url('../fonts/Lora-Regular.ttf');
+}
+@font-face{
+	font-family: Roboto-bla;
+	src:url('../fonts/Roboto-Black.ttf');
+}
+@font-face{
+	font-family: Roboto-thin;
+	src:url('../fonts/Roboto-Thin.ttf');
+}
+@font-face{
+	font-family: Roboto-it;
+	src:url('../fonts/Roboto-Italic.ttf');
+}
+@font-face{
+	font-family: Roboto;
+	src:url('../fonts/Roboto-Regular.ttf');
+}
+.about-head{
+	padding: 68px 42px;
+}
+.about-head h1{
+	font-family: Lora-it; 
+	font-style: italic;
+	font-size: 33px;
+	margin-bottom: 7px;
+}
+.about-head p{
+	font-family: Roboto;
+	line-height: 27px;
+}
+.about-head h3{
+	font-family: Lora-b; 
+	font-style: italic;
+	font-size: 20px;
+	margin-bottom: 7px;
+}
+.about-img{
+	border-radius: 45px;
+	transition:.5s ease;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+}
+.about-img:hover{
+	box-shadow: 0px 0px 20px 0px black;
+	border-radius: 45px;
+	transition:.5s ease;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	-ms-transform:scale(1.02,1.02);
+	-webkit-transform: scale(1.02,1.02);
+	transform: scale(1.02,1.02);
+}
+#degrees{
+	font-family: Roboto;
+	padding-bottom: 50px;
+	text-align: center;
+	line-height: 30px;
+}
+.curriculum-links{
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 2px 0px;
+}
+.curriculum-links:hover{
+	color: white;
+	padding:2px 15px;
+	background-color: black;
+}

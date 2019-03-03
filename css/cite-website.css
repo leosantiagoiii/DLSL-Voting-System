@@ -1,0 +1,123 @@
+*{
+	padding: 0;
+	margin: 0;
+	background-repeat: no-repeat;
+}
+@font-face{
+	font-family: Courier-new;
+	src:url('../fonts/Courier New.ttf');
+}
+@font-face{
+	font-family: Lora-it;
+	src:url('../fonts/Lora-Italic.ttf');
+}
+@font-face{
+	font-family: Lora-b;
+	src:url('../fonts/Lora-Bold.ttf');
+}
+@font-face{
+	font-family: Lora;
+	src:url('../fonts/Lora-Regular.ttf');
+}
+@font-face{
+	font-family: Roboto-bla;
+	src:url('../fonts/Roboto-Black.ttf');
+}
+@font-face{
+	font-family: Roboto-thin;
+	src:url('../fonts/Roboto-Thin.ttf');
+}
+@font-face{
+	font-family: Roboto-it;
+	src:url('../fonts/Roboto-Italic.ttf');
+}
+@font-face{
+	font-family: Roboto;
+	src:url('../fonts/Roboto-Regular.ttf');
+}
+.normal-bg{
+	background-image: url("../images/site-bg.png");
+	background-size: cover;
+}
+.red-bg{
+	background-image: url("../images/article-index.png");
+	background-size: cover;
+	background-attachment: fixed;
+}
+img{
+	image-rendering: crisp-edges;
+}
+.img-border{
+	border-radius: 18px;
+}
+.img-border-hover{
+	border-radius: 18px;
+	transition:.5s ease;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+}
+.img-border-hover:hover{
+	box-shadow: 0px 0px 20px 0px black;
+	border-radius: 5px;
+	transition:.5s ease;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	-ms-transform:scale(1.02,1.02);
+	-webkit-transform: scale(1.02,1.02);
+	transform: scale(1.02,1.02);
+}
+.header-img{
+	width: 100%;
+}
+.header-img img{
+	display: block;
+}
+.navigation{
+	padding: 14px 0px;
+	margin:0px;
+	background-color: #92120d;
+	top:0;
+	opacity: 0.87;
+	z-index: 500;
+}
+nav{
+	width: 100%;
+}
+#navul{	
+	list-style-type: none;
+	overflow: hidden;
+}
+.navli{
+	display: inline;
+	padding: 0px 30px;
+}
+.navli a{
+	font-family: Lora-it;
+	color: white;
+	letter-spacing: 1px;
+	text-align: center;
+	text-decoration: none;
+}
+footer{
+	background-image: url("../images/footer-bg.jpg");
+	background-size: cover;
+	padding: 60px 50px;
+	color: white;
+	font-family: Roboto;
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+footer td{
+	vertical-align: top;
+}
+footer a{
+	color: white;
+	text-decoration: none;
+}
+#footer-img{
+	width: 25%;
+}

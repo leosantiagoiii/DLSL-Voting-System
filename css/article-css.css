@@ -1,0 +1,108 @@
+@font-face{
+	font-family: Lora-it;
+	src:url('../fonts/Lora-Italic.ttf');
+}
+@font-face{
+	font-family: Lora-b;
+	src:url('../fonts/Lora-Bold.ttf');
+}
+@font-face{
+	font-family: Lora;
+	src:url('../fonts/Lora-Regular.ttf');
+}
+@font-face{
+	font-family: Roboto-bla;
+	src:url('../fonts/Roboto-Black.ttf');
+}
+@font-face{
+	font-family: Roboto-thin;
+	src:url('../fonts/Roboto-Thin.ttf');
+}
+@font-face{
+	font-family: Roboto-it;
+	src:url('../fonts/Roboto-Italic.ttf');
+}
+@font-face{
+	font-family: Roboto;
+	src:url('../fonts/Roboto-Regular.ttf');
+}
+.article-section{
+	background-image: url("../images/site-bg.png");
+	padding: 35px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.article-header-img{
+	position: relative;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+   	transition:.5s ease;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+}
+.article-header-img:hover{
+	transition:.5s ease;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+}
+.blk-n-wh{
+	filter: grayscale(100%);
+	opacity: 0.7;
+	transition:.5s ease;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+}
+.blk-n-wh:hover{
+	filter: grayscale(100%);
+	opacity: 3;
+	transition:.5s ease;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+}
+.article-header-img img{
+	transition:.5s ease;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+}
+.article-title{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.article-title h1{
+	font-family: Lora-it;
+	font-size: 48px;
+	color: #92120d;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    opacity: 0.83;
+    line-height: 48px;
+    font-weight:1000;
+}
+.article-title p{
+	font-family: Roboto;
+	font-weight: 400;
+	font-weight: bold;
+	font-size: 15px;
+	color: white;
+}
+.article-body{
+	font-family: Roboto;
+	font-size: 18px;
+	line-height: 34px;
+	padding: 0% 10%;
+	text-align: justify;
+}

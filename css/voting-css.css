@@ -1,0 +1,81 @@
+@font-face{
+	font-family: Lora-it;
+	src:url('../fonts/Lora-Italic.ttf');
+}
+@font-face{
+	font-family: Lora-b;
+	src:url('../fonts/Lora-Bold.ttf');
+}
+@font-face{
+	font-family: Lora;
+	src:url('../fonts/Lora-Regular.ttf');
+}
+@font-face{
+	font-family: Roboto-bla;
+	src:url('../fonts/Roboto-Black.ttf');
+}
+@font-face{
+	font-family: Roboto-thin;
+	src:url('../fonts/Roboto-Thin.ttf');
+}
+@font-face{
+	font-family: Roboto-it;
+	src:url('../fonts/Roboto-Italic.ttf');
+}
+@font-face{
+	font-family: Roboto;
+	src:url('../fonts/Roboto-Regular.ttf');
+}
+.year-banner{
+	background-color: #7d1e25;
+	position: absolute;	
+	padding: 3px 10px 3px 10px;
+}
+h1{
+	font-family: Roboto-bla;
+	color: gold;
+	font-size: 28px;
+}
+.vote-division{
+	background-image: url("../images/site-bg.png");
+	background-size: cover;
+	padding: 30px 0px 30px 0px;
+}
+.parent-table-vote{
+	margin:0px 0px 10px 0px;
+}
+.full-row{
+	padding: 80px 48px;
+}
+.left-row{
+	text-align: right;
+}
+.right-row{
+	text-align: left;
+}
+.position{
+	font-family: Lora-it;
+	color: #92120d;
+	font-size: 40px;
+}
+.candidate{
+	font-family: Roboto;
+	padding:7px 0px;
+	font-weight: bold;
+}
+.party{
+	font-family: Lora-it;
+	font-weight: lighter;
+	font-size: 12px;
+}
+.finished-voting{
+	padding: 6px 6px;
+	border-style: solid;
+	border-radius: 4px;
+	font-size: 12px;
+	background-color: #92120d;
+	color: white;
+	border-color: #92120d;
+	width: 10%;
+	margin:0px 10px;
+}

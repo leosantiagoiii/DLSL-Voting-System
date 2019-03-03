@@ -1,0 +1,78 @@
+*{
+	box-sizing: border-box;
+}
+@font-face{
+	font-family: Courier-new;
+	src:url('../fonts/Courier New.ttf');
+}
+@font-face{
+	font-family: Lora-it;
+	src:url('../fonts/Lora-Italic.ttf');
+}
+@font-face{
+	font-family: Lora-b;
+	src:url('../fonts/Lora-Bold.ttf');
+}
+@font-face{
+	font-family: Lora;
+	src:url('../fonts/Lora-Regular.ttf');
+}
+@font-face{
+	font-family: Roboto-bla;
+	src:url('../fonts/Roboto-Black.ttf');
+}
+@font-face{
+	font-family: Roboto-thin;
+	src:url('../fonts/Roboto-Thin.ttf');
+}
+@font-face{
+	font-family: Roboto-it;
+	src:url('../fonts/Roboto-Italic.ttf');
+}
+@font-face{
+	font-family: Roboto;
+	src:url('../fonts/Roboto-Regular.ttf');
+}
+h1{
+	text-align: center;
+}
+#header-title{
+	font-family: Lora-it;
+	padding: 70px 0px;
+	font-size: 50px;
+	color: #a41610;
+}
+.row h1{
+	font-family: Lora;
+	font-size: 20px;
+	margin-bottom: 3px;
+}
+.row p{
+	font-family: Roboto;
+	font-size: 14px;
+	line-height: 22px;
+}
+.row a{
+	color: black;
+	text-decoration: none;
+	color: #5b0e0b;
+}
+.row img{
+	padding-bottom: 5px;
+	transition:.5s ease;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+}
+.column{
+	float: left;
+	width: 33.33%;
+	padding: 0px 30px 50px 30px;
+	height: 65%;
+}
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
